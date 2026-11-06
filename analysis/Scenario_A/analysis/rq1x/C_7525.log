@@ -1,0 +1,5 @@
+Action: delivery_obstacle. Local: 0.90, Global: 0.95, Final: 0.91
+Action: delivery_yield. Local: 0.85, Global: 0.90, Final: 0.86
+Action: delivery_delay. Local: 0.55, Global: 0.80, Final: 0.61
+Action: delivery_signal_loss. Local: 0.60, Global: 0.70, Final: 0.625
+Action: delivery_stop. Local: 0.40, Global: 0.50, Final: 0.425

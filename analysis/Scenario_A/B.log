@@ -1,0 +1,108 @@
+
+=== Run: scenario1.json ===
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-01-13-20-46-966432-97913f15b047-120
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_node-1]: process started with pid [122]
+[INFO] [ethics_manager_node-2]: process started with pid [124]
+[INFO] [connector_node-3]: process started with pid [126]
+[ethics_manager_node-2] [INFO] [1790860847.552625541] [trust_robot_B.ethics_manager_node]: Ethics Manager Node initialized (placeholder).
+[robot_node-1] [INFO] [1790860847.563346250] [trust_robot_B.robot_node]: Robot B initialized in ALONE mode.
+[connector_node-3] [INFO] [1790860847.565311125] [trust_robot_B.connector_node]: Connector Node started. Flask on 0.0.0.0:5001
+[connector_node-3] [INFO] [1790860850.907313376] [trust_robot_B.connector_node]: Received /goal request
+[robot_node-1] [INFO] [1790860850.909204626] [trust_robot_B.robot_node]: [B] Goal received. Stored plan. Waiting to join (Order Position: B, Wait For: []).
+[robot_node-1] [INFO] [1790860851.945621960] [trust_robot_B.robot_node]: [B] Heard PLAN from A. Prerequisites met. Joining.
+[robot_node-1] [INFO] [1790860851.949095002] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860851.950007293] [trust_robot_B.robot_node]: [B] Follower B joined platoon. Platoon Order: ['B']
+[robot_node-1] [INFO] [1790860851.950655168] [trust_robot_B.robot_node]: [B] >>> BROADCAST: JOIN | Index: None | Action: None
+[robot_node-1] [INFO] [1790860851.953831668] [trust_robot_B.robot_node]: [B] Follower C joined platoon. Platoon Order: ['B', 'C']
+[robot_node-1] [INFO] [1790860852.975845460] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860852.976257919] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: go. Local: 0.82, Global: 1.00, Final: 0.91
+[robot_node-1] [INFO] [1790860852.976582752] [trust_robot_B.robot_node]: [B] Barrier met for task 0. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1790860852.979806669] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860852.980838794] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 0 | Action: go
+[robot_node-1] [INFO] [1790860853.266581502] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860853.266750002] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: go. Local: 0.83, Global: 1.00, Final: 0.92
+[robot_node-1] [INFO] [1790860853.266890086] [trust_robot_B.robot_node]: [B] Barrier met for task 1. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1790860853.282086919] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860853.282266627] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 1 | Action: go
+[robot_node-1] [INFO] [1790860853.320459877] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860853.320631669] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: done. Local: 0.83, Global: 1.00, Final: 0.92
+[robot_node-1] [INFO] [1790860853.320768169] [trust_robot_B.robot_node]: [B] Barrier met for task 2. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1790860853.327913252] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860853.328067377] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 2 | Action: done
+
+=== Run: scenario2.json ===
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-01-13-21-13-187827-97913f15b047-351
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_node-1]: process started with pid [353]
+[INFO] [ethics_manager_node-2]: process started with pid [355]
+[INFO] [connector_node-3]: process started with pid [357]
+[ethics_manager_node-2] [INFO] [1790860873.707629304] [trust_robot_B.ethics_manager_node]: Ethics Manager Node initialized (placeholder).
+[robot_node-1] [INFO] [1790860873.735903137] [trust_robot_B.robot_node]: Robot B initialized in ALONE mode.
+[connector_node-3] [INFO] [1790860873.737644137] [trust_robot_B.connector_node]: Connector Node started. Flask on 0.0.0.0:5001
+[connector_node-3] [INFO] [1790860877.120340555] [trust_robot_B.connector_node]: Received /goal request
+[robot_node-1] [INFO] [1790860877.122143972] [trust_robot_B.robot_node]: [B] Goal received. Stored plan. Waiting to join (Order Position: B, Wait For: []).
+[robot_node-1] [INFO] [1790860878.162511875] [trust_robot_B.robot_node]: [B] Heard PLAN from A. Prerequisites met. Joining.
+[robot_node-1] [INFO] [1790860878.166268000] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860878.166634083] [trust_robot_B.robot_node]: [B] Follower B joined platoon. Platoon Order: ['B']
+[robot_node-1] [INFO] [1790860878.190903375] [trust_robot_B.robot_node]: [B] >>> BROADCAST: JOIN | Index: None | Action: None
+[robot_node-1] [INFO] [1790860878.191317291] [trust_robot_B.robot_node]: [B] Follower C joined platoon. Platoon Order: ['B', 'C']
+[robot_node-1] [INFO] [1790860879.188953375] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.189464334] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: go. Local: 0.80, Global: 1.00, Final: 0.90
+[robot_node-1] [INFO] [1790860879.189820834] [trust_robot_B.robot_node]: [B] Barrier met for task 0. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1790860879.190597459] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.193303125] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 0 | Action: go
+[robot_node-1] [INFO] [1790860879.244369042] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.244617834] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: go. Local: 0.82, Global: 1.00, Final: 0.91
+[robot_node-1] [INFO] [1790860879.244862000] [trust_robot_B.robot_node]: [B] Barrier met for task 1. Evaluating as FOLLOWER.
+[robot_node-1] [WARN] [1790860879.245170375] [trust_robot_B.robot_node]: [B] !!! MISBEHAVIOR !!! Overriding intended action "go" with "brake"
+[robot_node-1] [INFO] [1790860879.246665542] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.247008959] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 1 | Action: brake
+[robot_node-1] [INFO] [1790860879.293098292] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.293339542] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: go. Local: 0.83, Global: 1.00, Final: 0.92
+[robot_node-1] [INFO] [1790860879.293531792] [trust_robot_B.robot_node]: [B] Barrier met for task 2. Evaluating as FOLLOWER.
+[robot_node-1] [WARN] [1790860879.293756250] [trust_robot_B.robot_node]: [B] !!! MISBEHAVIOR !!! Overriding intended action "go" with "brake"
+[robot_node-1] [INFO] [1790860879.295010250] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.295263209] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 2 | Action: brake
+[robot_node-1] [INFO] [1790860879.370329417] [trust_robot_B.robot_node]: [B] Follower C left. Remaining platoon order: ['B']
+[robot_node-1] [INFO] [1790860879.416255542] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.416414375] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: done. Local: 0.83, Global: 1.00, Final: 0.92
+[robot_node-1] [INFO] [1790860879.416548250] [trust_robot_B.robot_node]: [B] Barrier met for task 3. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1790860879.425458667] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.425609584] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 3 | Action: done
+[robot_node-1] [INFO] [1790860879.425875167] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.426017084] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: done. Local: 0.83, Global: 1.00, Final: 0.92
+[robot_node-1] [INFO] [1790860879.426155709] [trust_robot_B.robot_node]: [B] Barrier met for task 3. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1790860879.428659125] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.428816209] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 3 | Action: done
+
+=== Run: scenario3.json ===
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-01-13-21-39-398386-97913f15b047-583
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_node-1]: process started with pid [585]
+[INFO] [ethics_manager_node-2]: process started with pid [587]
+[INFO] [connector_node-3]: process started with pid [589]
+[ethics_manager_node-2] [INFO] [1790860899.599673052] [trust_robot_B.ethics_manager_node]: Ethics Manager Node initialized (placeholder).
+[robot_node-1] [INFO] [1790860899.609726802] [trust_robot_B.robot_node]: Robot B initialized in ALONE mode.
+[connector_node-3] [INFO] [1790860900.025147969] [trust_robot_B.connector_node]: Connector Node started. Flask on 0.0.0.0:5001
+[connector_node-3] [INFO] [1790860903.332689137] [trust_robot_B.connector_node]: Received /goal request
+[robot_node-1] [INFO] [1790860903.334378970] [trust_robot_B.robot_node]: [B] Goal received. Stored plan. Waiting to join (Order Position: B, Wait For: []).
+[robot_node-1] [INFO] [1790860904.374038929] [trust_robot_B.robot_node]: [B] Heard PLAN from A. Prerequisites met. Joining.
+[robot_node-1] [INFO] [1790860904.377242762] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860904.378284929] [trust_robot_B.robot_node]: [B] >>> BROADCAST: JOIN | Index: None | Action: None
+[robot_node-1] [INFO] [1790860904.378606471] [trust_robot_B.robot_node]: [B] Follower B joined platoon. Platoon Order: ['B']
+[robot_node-1] [INFO] [1790860905.459167096] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860905.459442388] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: go. Local: 0.79, Global: 1.00, Final: 0.90
+[robot_node-1] [INFO] [1790860905.459638804] [trust_robot_B.robot_node]: [B] Barrier met for task 0. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1790860905.462493138] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860905.462690596] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 0 | Action: go
+[robot_node-1] [INFO] [1790860905.473960346] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860905.474164513] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: go. Local: 0.81, Global: 1.00, Final: 0.91
+[robot_node-1] [INFO] [1790860905.474330846] [trust_robot_B.robot_node]: [B] Barrier met for task 1. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1790860905.478275971] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860905.478463638] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 1 | Action: go
+[robot_node-1] [INFO] [1790860905.490129513] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860905.490320430] [trust_robot_B.robot_node]: [B] Trust Update: Leader A. Action: done. Local: 0.81, Global: 1.00, Final: 0.91
+[robot_node-1] [INFO] [1790860905.490486055] [trust_robot_B.robot_node]: [B] Barrier met for task 2. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1790860905.491764846] [trust_robot_B.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860905.491953763] [trust_robot_B.robot_node]: [B] >>> BROADCAST: ACTION | Index: 2 | Action: done

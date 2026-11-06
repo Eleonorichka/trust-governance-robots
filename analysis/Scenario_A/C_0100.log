@@ -1,0 +1,138 @@
+
+=== Run: scenario9x.json ===
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-05-06-10-18-13-545537-248791370ae5-16189
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_node-1]: process started with pid [16191]
+[INFO] [ethics_manager_node-2]: process started with pid [16193]
+[INFO] [connector_node-3]: process started with pid [16195]
+[ethics_manager_node-2] [INFO] [1778062694.724185734] [trust_robot_C.ethics_manager_node]: Ethics Manager Node initialized (placeholder).
+[robot_node-1] [INFO] [1778062694.747996086] [trust_robot_C.robot_node]: Robot C initialized in ALONE mode.
+[connector_node-3] [INFO] [1778062694.775136093] [trust_robot_C.connector_node]: Connector Node started. Flask on 0.0.0.0:5002
+[connector_node-3] [INFO] [1778062695.359669454] [trust_robot_C.connector_node]: Received /goal request
+[robot_node-1] [INFO] [1778062695.365412529] [trust_robot_C.robot_node]: [C] Goal received. Stored plan. Waiting to join (Order Position: C, Wait For: ['B']).
+[robot_node-1] [INFO] [1778062696.402586322] [trust_robot_C.robot_node]: [C] Plan received, but waiting for ['B'] to join first.
+[robot_node-1] [INFO] [1778062696.417844338] [trust_robot_C.robot_node]: [C] Follower B joined platoon. Platoon Order: ['B']
+[robot_node-1] [INFO] [1778062696.422458305] [trust_robot_C.robot_node]: [C] Heard PLAN from A. Prerequisites met. Joining.
+[robot_node-1] [INFO] [1778062696.435930666] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062696.436637282] [trust_robot_C.robot_node]: [C] Follower C joined platoon. Platoon Order: ['B', 'C']
+[robot_node-1] [INFO] [1778062696.443924228] [trust_robot_C.robot_node]: [C] >>> BROADCAST: JOIN | Index: None | Action: None
+[robot_node-1] [INFO] [1778062697.476442458] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.479332743] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.77, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062697.493643859] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.85, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062697.496855501] [trust_robot_C.robot_node]: [C] Barrier met for task 0. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062697.504714552] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.506816844] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 0 | Action: go
+[robot_node-1] [INFO] [1778062697.552470872] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.554207860] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.78, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062697.567331693] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: emergency_brake. Local: 0.60, Global: 0.95, Final: 0.95
+[robot_node-1] [INFO] [1778062697.568983040] [trust_robot_C.robot_node]: [C] Barrier met for task 1. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062697.575138071] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.579064601] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 1 | Action: go
+[robot_node-1] [INFO] [1778062697.616431960] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.619106579] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.80, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062697.631775259] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.61, Global: 0.97, Final: 0.97
+[robot_node-1] [INFO] [1778062697.633893855] [trust_robot_C.robot_node]: [C] Barrier met for task 2. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062697.649713971] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.656941375] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 2 | Action: go
+[robot_node-1] [INFO] [1778062697.686014894] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.688579077] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.81, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062697.702417433] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.62, Global: 0.99, Final: 0.99
+[robot_node-1] [INFO] [1778062697.705518550] [trust_robot_C.robot_node]: [C] Barrier met for task 3. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062697.728290197] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.732729470] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 3 | Action: go
+[robot_node-1] [INFO] [1778062697.787005069] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.789229114] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.83, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062697.803510307] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: emergency_turn_left. Local: 0.44, Global: 0.96, Final: 0.96
+[robot_node-1] [INFO] [1778062697.806146855] [trust_robot_C.robot_node]: [C] Barrier met for task 4. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062697.818840265] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.822178192] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 4 | Action: go
+[robot_node-1] [INFO] [1778062697.860787086] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.862421351] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.85, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062697.875809823] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.44, Global: 0.98, Final: 0.98
+[robot_node-1] [INFO] [1778062697.877596642] [trust_robot_C.robot_node]: [C] Barrier met for task 5. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062697.914626036] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.918667553] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 5 | Action: go
+[robot_node-1] [INFO] [1778062697.947972906] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.950968780] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.86, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062697.965137693] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.45, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062697.967601364] [trust_robot_C.robot_node]: [C] Barrier met for task 6. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062697.983123462] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062697.986040638] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 6 | Action: go
+[robot_node-1] [INFO] [1778062698.019773664] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.024716503] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.88, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.039159900] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: emergency_brake. Local: 0.32, Global: 0.95, Final: 0.95
+[robot_node-1] [INFO] [1778062698.041802358] [trust_robot_C.robot_node]: [C] Barrier met for task 7. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.052864549] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.059986760] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 7 | Action: go
+[robot_node-1] [INFO] [1778062698.118264534] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.120711693] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.90, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.135012671] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.32, Global: 0.97, Final: 0.97
+[robot_node-1] [INFO] [1778062698.138104531] [trust_robot_C.robot_node]: [C] Barrier met for task 8. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.161935009] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.166497598] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 8 | Action: go
+[robot_node-1] [INFO] [1778062698.221184100] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.255844206] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.92, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.325850949] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.33, Global: 0.99, Final: 0.99
+[robot_node-1] [INFO] [1778062698.327850219] [trust_robot_C.robot_node]: [C] Barrier met for task 9. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.333973413] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.341271741] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 9 | Action: go
+[robot_node-1] [INFO] [1778062698.418621795] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.421389436] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.93, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.434646455] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: emergency_turn_left. Local: 0.23, Global: 0.96, Final: 0.96
+[robot_node-1] [INFO] [1778062698.437098629] [trust_robot_C.robot_node]: [C] Barrier met for task 10. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.451065309] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.454481785] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 10 | Action: go
+[robot_node-1] [INFO] [1778062698.513536122] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.515311963] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.95, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.528618135] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.24, Global: 0.98, Final: 0.98
+[robot_node-1] [INFO] [1778062698.530141790] [trust_robot_C.robot_node]: [C] Barrier met for task 11. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.539238669] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.542028401] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 11 | Action: go
+[robot_node-1] [INFO] [1778062698.606180727] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.610761017] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.97, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.626270836] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.24, Global: 0.99, Final: 0.99
+[robot_node-1] [INFO] [1778062698.628388160] [trust_robot_C.robot_node]: [C] Barrier met for task 12. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.637485216] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.649687079] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 12 | Action: go
+[robot_node-1] [INFO] [1778062698.692816785] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.695160054] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 0.99, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.709945524] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: emergency_brake. Local: 0.17, Global: 0.95, Final: 0.95
+[robot_node-1] [INFO] [1778062698.712326288] [trust_robot_C.robot_node]: [C] Barrier met for task 13. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.723886019] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.726301532] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 13 | Action: go
+[robot_node-1] [INFO] [1778062698.783452385] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.785970560] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 1.00, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.799864660] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.17, Global: 0.96, Final: 0.96
+[robot_node-1] [INFO] [1778062698.802669738] [trust_robot_C.robot_node]: [C] Barrier met for task 14. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.810228525] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.813405701] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 14 | Action: go
+[robot_node-1] [INFO] [1778062698.876320528] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.879358085] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 1.00, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.894564990] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.18, Global: 0.98, Final: 0.98
+[robot_node-1] [INFO] [1778062698.898913315] [trust_robot_C.robot_node]: [C] Barrier met for task 15. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.913589926] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.918141167] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 15 | Action: go
+[robot_node-1] [INFO] [1778062698.959231555] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.964025630] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 1.00, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062698.977241783] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: emergency_turn_left. Local: 0.12, Global: 0.95, Final: 0.95
+[robot_node-1] [INFO] [1778062698.980188147] [trust_robot_C.robot_node]: [C] Barrier met for task 16. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062698.994947656] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062698.999379745] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 16 | Action: go
+[robot_node-1] [INFO] [1778062699.059567872] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062699.066424102] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 1.00, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062699.081733928] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.13, Global: 0.97, Final: 0.97
+[robot_node-1] [INFO] [1778062699.086513086] [trust_robot_C.robot_node]: [C] Barrier met for task 17. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062699.116175237] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062699.121940830] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 17 | Action: go
+[robot_node-1] [INFO] [1778062699.351955447] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062699.356032826] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: go. Local: 1.00, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062699.428989375] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: go. Local: 0.13, Global: 0.99, Final: 0.99
+[robot_node-1] [INFO] [1778062699.433558288] [trust_robot_C.robot_node]: [C] Barrier met for task 18. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062699.443829968] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062699.450228949] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 18 | Action: go
+[robot_node-1] [INFO] [1778062699.482156758] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062699.484545517] [trust_robot_C.robot_node]: [C] Trust Update: Leader A. Action: done. Local: 1.00, Global: 1.00, Final: 1.00
+[robot_node-1] [INFO] [1778062699.500408206] [trust_robot_C.robot_node]: [C] Trust Update: Predecessor B. Action: done. Local: 0.13, Global: 0.99, Final: 0.99
+[robot_node-1] [INFO] [1778062699.504715864] [trust_robot_C.robot_node]: [C] Barrier met for task 19. Evaluating as FOLLOWER.
+[robot_node-1] [INFO] [1778062699.515172160] [trust_robot_C.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1778062699.520531944] [trust_robot_C.robot_node]: [C] >>> BROADCAST: ACTION | Index: 19 | Action: done

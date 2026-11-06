@@ -1,0 +1,66 @@
+[INFO] [1790860843.133702678] [governance_node]: Governance Node initialized.
+[INFO] [1790860851.944675210] [governance_node]: Recorded PLAN from A: ['go', 'go', 'done']
+[INFO] [1790860851.946905543] [governance_node]: New robot B joined. Global TS: 1.0
+[INFO] [1790860851.952630710] [governance_node]: New robot C joined. Global TS: 1.0
+[INFO] [1790860852.955588210] [governance_node]: Global Trust Update: A | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860852.962659544] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860852.978009335] [governance_node]: Global Trust Update: B | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860852.979745210] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860852.991614627] [governance_node]: Service call: GetGlobalTrust for B -> 1.00
+[INFO] [1790860853.004424085] [governance_node]: Global Trust Update: C | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860853.015942544] [governance_node]: Global Trust Update: A | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860853.253135711] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860853.267362836] [governance_node]: Global Trust Update: B | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860853.281295002] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860853.292785752] [governance_node]: Service call: GetGlobalTrust for B -> 1.00
+[INFO] [1790860853.304784669] [governance_node]: Global Trust Update: C | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860853.309325169] [governance_node]: Global Trust Update: A | Intended: done | Actual: done | New Score: 1.00
+[INFO] [1790860853.309761461] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860853.321201336] [governance_node]: Global Trust Update: B | Intended: done | Actual: done | New Score: 1.00
+[INFO] [1790860853.321900961] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860853.333818294] [governance_node]: Service call: GetGlobalTrust for B -> 1.00
+[INFO] [1790860853.347151919] [governance_node]: Global Trust Update: C | Intended: done | Actual: done | New Score: 1.00
+[INFO] [1790860869.238814343] [governance_node]: Governance Node initialized.
+[INFO] [1790860878.158589250] [governance_node]: Recorded PLAN from A: ['go', 'go', 'go', 'done']
+[INFO] [1790860878.163434916] [governance_node]: New robot B joined. Global TS: 1.0
+[INFO] [1790860878.167473916] [governance_node]: New robot C joined. Global TS: 1.0
+[INFO] [1790860879.167292292] [governance_node]: Global Trust Update: A | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860879.176272500] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860879.191827459] [governance_node]: Global Trust Update: B | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860879.197342917] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860879.209800709] [governance_node]: Service call: GetGlobalTrust for B -> 1.00
+[INFO] [1790860879.222873417] [governance_node]: Global Trust Update: C | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860879.232179417] [governance_node]: Global Trust Update: A | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860879.233026709] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860879.246071750] [governance_node]: Global Trust Update: B | Intended: go | Actual: brake | New Score: 0.70
+[INFO] [1790860879.247083709] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860879.257779667] [governance_node]: Service call: GetGlobalTrust for B -> 0.70
+[INFO] [1790860879.270528709] [governance_node]: Global Trust Update: C | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860879.278090084] [governance_node]: Global Trust Update: A | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860879.281346875] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860879.294352334] [governance_node]: Global Trust Update: B | Intended: go | Actual: brake | New Score: 0.49
+[INFO] [1790860879.346071250] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860879.358328875] [governance_node]: Service call: GetGlobalTrust for B -> 0.49
+[INFO] [1790860879.371147125] [governance_node]: Recorded PLAN from C: ['go', 'go', 'go', 'done']
+[INFO] [1790860879.372416750] [governance_node]: Global Trust Update: C | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860879.392345375] [governance_node]: Global Trust Update: A | Intended: done | Actual: done | New Score: 1.00
+[INFO] [1790860879.396525709] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860879.399068167] [governance_node]: Global Trust Update: C | Intended: done | Actual: done | New Score: 1.00
+[INFO] [1790860879.415269375] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860879.417002917] [governance_node]: Global Trust Update: B | Intended: done | Actual: done | New Score: 0.49
+[INFO] [1790860879.426601375] [governance_node]: Global Trust Update: B | Intended: done | Actual: done | New Score: 0.49
+[INFO] [1790860895.456642091] [governance_node]: Governance Node initialized.
+[INFO] [1790860904.372923887] [governance_node]: Recorded PLAN from A: ['go', 'go', 'done']
+[INFO] [1790860904.375302262] [governance_node]: New robot B joined. Global TS: 1.0
+[INFO] [1790860904.380020929] [governance_node]: Recorded PLAN from C: ['explore', 'stop']
+[INFO] [1790860904.383044012] [governance_node]: Global Trust Update: C | Intended: go | Actual: explore | New Score: 0.70
+[INFO] [1790860904.448852429] [governance_node]: Global Trust Update: C | Intended: go | Actual: stop | New Score: 0.49
+[INFO] [1790860905.389303429] [governance_node]: Global Trust Update: A | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860905.446411971] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860905.460235679] [governance_node]: Global Trust Update: B | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860905.461759596] [governance_node]: Global Trust Update: A | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860905.463134013] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860905.474795138] [governance_node]: Global Trust Update: B | Intended: go | Actual: go | New Score: 1.00
+[INFO] [1790860905.477411388] [governance_node]: Global Trust Update: A | Intended: done | Actual: done | New Score: 1.00
+[INFO] [1790860905.478944430] [governance_node]: Service call: GetGlobalTrust for A -> 1.00
+[INFO] [1790860905.490964680] [governance_node]: Global Trust Update: B | Intended: done | Actual: done | New Score: 1.00

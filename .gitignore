@@ -1,0 +1,10 @@
+run/simulation/results/
+build/
+install/
+log/
+*.pyc
+.agents/
+.antigravityignore
+.DS_Store
+analysis/.DS_Store
+run/simulation/.venv/

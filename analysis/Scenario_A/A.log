@@ -1,0 +1,80 @@
+
+=== Run: scenario1.json ===
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-01-13-20-44-980309-97913f15b047-60
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_node-1]: process started with pid [62]
+[INFO] [ethics_manager_node-2]: process started with pid [64]
+[INFO] [connector_node-3]: process started with pid [66]
+[ethics_manager_node-2] [INFO] [1790860845.209939679] [trust_robot_A.ethics_manager_node]: Ethics Manager Node initialized (placeholder).
+[robot_node-1] [INFO] [1790860845.211847721] [trust_robot_A.robot_node]: Robot A initialized in ALONE mode.
+[connector_node-3] [INFO] [1790860845.269807388] [trust_robot_A.connector_node]: Connector Node started. Flask on 0.0.0.0:5000
+[connector_node-3] [INFO] [1790860851.939875918] [trust_robot_A.connector_node]: Received /goal request
+[robot_node-1] [INFO] [1790860851.943016127] [trust_robot_A.robot_node]: [A] Goal received. Becoming LEADER. Plan: ['go', 'go', 'done']
+[robot_node-1] [INFO] [1790860851.945375668] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860851.945774335] [trust_robot_A.robot_node]: [A] >>> BROADCAST: PLAN | Index: None | Action: None
+[robot_node-1] [INFO] [1790860851.947889835] [trust_robot_A.robot_node]: [A] Follower B joined platoon. Platoon Order: ['B']
+[robot_node-1] [INFO] [1790860851.957720835] [trust_robot_A.robot_node]: [A] Follower C joined platoon. Platoon Order: ['B', 'C']
+[robot_node-1] [INFO] [1790860852.954981544] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860852.956915585] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 0 | Action: go
+[robot_node-1] [INFO] [1790860853.015173252] [trust_robot_A.robot_node]: [A] Last expected follower C finished task 0. Advancing to next: 1
+[robot_node-1] [INFO] [1790860853.030888627] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860853.031104294] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 1 | Action: go
+[robot_node-1] [INFO] [1790860853.308940127] [trust_robot_A.robot_node]: [A] Last expected follower C finished task 1. Advancing to next: 2
+[robot_node-1] [INFO] [1790860853.309190544] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860853.310407294] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 2 | Action: done
+[robot_node-1] [INFO] [1790860853.347996211] [trust_robot_A.robot_node]: [A] Last expected follower C finished task 2. Advancing to next: 3
+[robot_node-1] [INFO] [1790860853.348163211] [trust_robot_A.robot_node]: [A] Plan complete.
+
+=== Run: scenario2.json ===
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-01-13-21-11-177382-97913f15b047-291
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_node-1]: process started with pid [293]
+[INFO] [ethics_manager_node-2]: process started with pid [295]
+[INFO] [connector_node-3]: process started with pid [297]
+[ethics_manager_node-2] [INFO] [1790860871.372149303] [trust_robot_A.ethics_manager_node]: Ethics Manager Node initialized (placeholder).
+[robot_node-1] [INFO] [1790860871.384999011] [trust_robot_A.robot_node]: Robot A initialized in ALONE mode.
+[connector_node-3] [INFO] [1790860871.401531928] [trust_robot_A.connector_node]: Connector Node started. Flask on 0.0.0.0:5000
+[connector_node-3] [INFO] [1790860878.154402500] [trust_robot_A.connector_node]: Received /goal request
+[robot_node-1] [INFO] [1790860878.157035375] [trust_robot_A.robot_node]: [A] Goal received. Becoming LEADER. Plan: ['go', 'go', 'go', 'done']
+[robot_node-1] [INFO] [1790860878.159518791] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860878.159916625] [trust_robot_A.robot_node]: [A] >>> BROADCAST: PLAN | Index: None | Action: None
+[robot_node-1] [INFO] [1790860878.166482708] [trust_robot_A.robot_node]: [A] Follower B joined platoon. Platoon Order: ['B']
+[robot_node-1] [INFO] [1790860878.181184958] [trust_robot_A.robot_node]: [A] Follower C joined platoon. Platoon Order: ['B', 'C']
+[robot_node-1] [INFO] [1790860879.166887042] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.168008542] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 0 | Action: go
+[robot_node-1] [INFO] [1790860879.231246875] [trust_robot_A.robot_node]: [A] Last expected follower C finished task 0. Advancing to next: 1
+[robot_node-1] [INFO] [1790860879.234200042] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.234449500] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 1 | Action: go
+[robot_node-1] [INFO] [1790860879.277301750] [trust_robot_A.robot_node]: [A] Last expected follower C finished task 1. Advancing to next: 2
+[robot_node-1] [INFO] [1790860879.282415584] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.282657000] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 2 | Action: go
+[robot_node-1] [INFO] [1790860879.391875167] [trust_robot_A.robot_node]: [A] Follower C left. Remaining platoon order: ['B']
+[robot_node-1] [INFO] [1790860879.397424667] [trust_robot_A.robot_node]: [A] Last expected follower B finished task 2. Advancing to next: 3
+[robot_node-1] [INFO] [1790860879.397773042] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860879.398470625] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 3 | Action: done
+[robot_node-1] [INFO] [1790860879.399159667] [trust_robot_A.robot_node]: [A] Plan complete.
+
+=== Run: scenario3.json ===
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-10-01-13-21-37-390242-97913f15b047-523
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [robot_node-1]: process started with pid [525]
+[INFO] [ethics_manager_node-2]: process started with pid [527]
+[INFO] [connector_node-3]: process started with pid [529]
+[ethics_manager_node-2] [INFO] [1790860897.608252842] [trust_robot_A.ethics_manager_node]: Ethics Manager Node initialized (placeholder).
+[robot_node-1] [INFO] [1790860897.609237676] [trust_robot_A.robot_node]: Robot A initialized in ALONE mode.
+[connector_node-3] [INFO] [1790860897.648523509] [trust_robot_A.connector_node]: Connector Node started. Flask on 0.0.0.0:5000
+[connector_node-3] [INFO] [1790860904.368982096] [trust_robot_A.connector_node]: Received /goal request
+[robot_node-1] [INFO] [1790860904.371524679] [trust_robot_A.robot_node]: [A] Goal received. Becoming LEADER. Plan: ['go', 'go', 'done']
+[robot_node-1] [INFO] [1790860904.374276054] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860904.379790762] [trust_robot_A.robot_node]: [A] >>> BROADCAST: PLAN | Index: None | Action: None
+[robot_node-1] [INFO] [1790860904.382148762] [trust_robot_A.robot_node]: [A] Follower B joined platoon. Platoon Order: ['B']
+[robot_node-1] [INFO] [1790860905.388561054] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860905.389258221] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 0 | Action: go
+[robot_node-1] [INFO] [1790860905.460975596] [trust_robot_A.robot_node]: [A] Last expected follower B finished task 0. Advancing to next: 1
+[robot_node-1] [INFO] [1790860905.463882221] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860905.464087388] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 1 | Action: go
+[robot_node-1] [INFO] [1790860905.476907221] [trust_robot_A.robot_node]: [A] Last expected follower B finished task 1. Advancing to next: 2
+[robot_node-1] [INFO] [1790860905.480158596] [trust_robot_A.robot_node]: ------------------------------------------------------------
+[robot_node-1] [INFO] [1790860905.480351513] [trust_robot_A.robot_node]: [A] >>> BROADCAST: ACTION | Index: 2 | Action: done
+[robot_node-1] [INFO] [1790860905.492502221] [trust_robot_A.robot_node]: [A] Last expected follower B finished task 2. Advancing to next: 3
+[robot_node-1] [INFO] [1790860905.492691513] [trust_robot_A.robot_node]: [A] Plan complete.
